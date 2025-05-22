@@ -1,5 +1,5 @@
 <template>
-	<main class="min-h-screen bg-background">
+	<main class="min-h-screen">
 		<section
 			id="hero"
 			class="pt-12 md:pt-16"

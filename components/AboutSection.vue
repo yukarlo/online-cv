@@ -1,6 +1,6 @@
 <template>
 	<main>
-		<h2 class="mb-8 text-2xl font-bold md:text-3xl">
+		<h2 class="mb-8 tracking-tighter text-2xl font-bold md:text-3xl">
 			About Me
 		</h2>
 		<div class="grid gap-6 md:grid-cols-3 md:gap-12">
@@ -26,32 +26,31 @@
 			</div>
 			<div class="space-y-4">
 				<div>
-					<h3 class="text-lg font-medium">
+					<h3 class="text-lg font-bold">
 						Location
 					</h3>
-					<p class="text-muted-foreground">
+					<span class="text-muted-foreground">
 						Düsseldorf, Germany
-					</p>
+					</span>
 				</div>
 				<div>
-					<h3 class="text-lg font-medium">
+					<h3 class="text-lg font-bold">
 						Email
 					</h3>
 					<ULink
 						to="mailto:karlo.miguel.p.yu@gmail.com"
 						variant="link"
-						class="rounded-full "
 					>
 						karlo.miguel.p.yu@gmail.com
 					</ULink>
 				</div>
 				<div>
-					<h3 class="text-lg font-medium">
+					<h3 class="text-lg font-bold">
 						Work Availability
 					</h3>
-					<p class="text-muted-foreground">
+					<span class="text-muted-foreground">
 						Full-time, Remote
-					</p>
+					</span>
 				</div>
 			</div>
 		</div>

@@ -7,12 +7,11 @@
 						Karlo Miguel Yu
 					</h1>
 					<h2 class="text-xl font-medium text-muted-foreground sm:text-2xl">
-						Senior Software Engineer
+						Senior Software Developer
 					</h2>
 				</div>
 				<p class="max-w-[600px] text-muted-foreground md:text-xl">
-					Passionate software engineer with 5+ years of experience building web applications and leading
-					development teams.
+					Passionate Software Developer with 10 years of experience building and optimizing mobile and web applications, leveraging a diverse tech stack to impact a wide user base.
 				</p>
 				<div class="flex gap-2">
 					<UButton

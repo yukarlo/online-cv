@@ -6,7 +6,7 @@
 		<div class="grid gap-6 md:grid-cols-3 md:gap-12">
 			<div class="col-span-2">
 				<p class="mb-4 text-muted-foreground text-justify">
-					As a Senior Software Engineer, I'm driven by the creation of intuitive, high-performance Android
+					As a Senior Software Developer, I'm driven by the creation of intuitive, high-performance Android
 					and web applications. My 10+ years in software development include 7 years specializing in Android,
 					complemented by a solid 3-year background in web technologies.
 				</p>

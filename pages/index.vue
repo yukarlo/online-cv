@@ -14,7 +14,9 @@
 		</section>
 		<section
 			id="experience"
-			class="pt-12 md:pt-16 h-lvh"
-		/>
+			class="pt-12 md:pt-16"
+		>
+			<ExperienceSection />
+		</section>
 	</main>
 </template>

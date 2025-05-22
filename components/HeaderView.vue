@@ -1,9 +1,24 @@
 <script setup lang="ts">
+const open = ref(false)
+
+defineShortcuts({
+	o: () => open.value = !open.value,
+})
+
+const navigationItems = [
+	{ label: "About", icon: "material-symbols:person-outline", to: "#about" },
+	{ label: "Experience", icon: "mingcute:briefcase-line", to: "#experience" },
+	{ label: "Skills", icon: "heroicons:academic-cap", to: "#skills" },
+	{ label: "Education", icon: "i-heroicons-book-open", to: "#education" },
+	{ label: "Projects", icon: "i-heroicons-code-bracket-square", to: "#projects" },
+	{ label: "Contact", icon: "i-heroicons-envelope", to: "#contact" },
+	{ label: "Resume", icon: "qlementine-icons:resume-16", to: "" },
+]
 </script>
 
 <template>
 	<main class="sticky top-0 z-10 w-full">
-		<header class="border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+		<header class="hidden md:block border-b bg-[var(--ui-bg)]/95 backdrop-blur supports-[backdrop-filter]:bg-[var(--ui-bg)]/60">
 			<div class="flex h-14 max-w-[1450px] mx-auto xs:px-[var(--px-fluid-sm)] sm:px-[var(--px-fluid-sm)] md:px-[var(--px-fluid-md)">
 				<div class="mr-4 flex flex-1">
 					<ULink
@@ -59,6 +74,45 @@
 					</UButton>
 				</div>
 			</div>
+		</header>
+		<header class="block md:hidden w-full">
+			<UCollapsible
+				v-model:open="open"
+				class="flex flex-col w-full"
+			>
+				<UButton
+					label="On this page"
+					color="neutral"
+					size="xl"
+					variant="solid"
+					class="group rounded-none"
+					trailing-icon="i-lucide-chevron-down"
+					:ui="{
+						base: 'justify-between',
+						trailingIcon: 'group-data-[state=open]:rotate-180 transition-transform duration-200',
+					}"
+				/>
+
+				<template #content>
+					<div class=" bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-t ">
+						<nav class="flex flex-col">
+							<ULink
+								v-for="item in navigationItems"
+								:key="item.to"
+								size="lg"
+								:href="item.to"
+								class="flex items-center gap-2 p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+							>
+								<UIcon
+									:name="item.icon"
+									class="w-5 h-5"
+								/>
+								<span>{{ item.label }}</span>
+							</ULink>
+						</nav>
+					</div>
+				</template>
+			</UCollapsible>
 		</header>
 	</main>
 </template>

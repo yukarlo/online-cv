@@ -29,7 +29,7 @@
 				</div>
 				<div class="flex gap-2 pt-2">
 					<UButton
-						to="https://github.com"
+						to="https://github.com/yukarlo"
 						target="_blank"
 						rel="noopener noreferrer"
 						variant="ghost"
@@ -43,7 +43,7 @@
 						<span class="sr-only">GitHub</span>
 					</UButton>
 					<UButton
-						to="https://linkedin.com"
+						to="https://www.linkedin.com/in/karlomiguelpyu/"
 						target="_blank"
 						rel="noopener noreferrer"
 						variant="ghost"

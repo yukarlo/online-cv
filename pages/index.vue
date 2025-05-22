@@ -18,5 +18,11 @@
 		>
 			<ExperienceSection />
 		</section>
+		<section
+			id="skills"
+			class="pt-12 md:pt-16"
+		>
+			<SkillsSections />
+		</section>
 	</main>
 </template>

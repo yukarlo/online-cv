@@ -24,5 +24,11 @@
 		>
 			<SkillsSection />
 		</section>
+		<section
+			id="skills"
+			class="pt-12 md:pt-16"
+		>
+			<EducationSection />
+		</section>
 	</main>
 </template>

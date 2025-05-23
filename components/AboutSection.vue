@@ -12,16 +12,16 @@
 				</p>
 				<p class="mb-4 text-muted-foreground text-justify">
 					My journey began with ASP.NET and Angular, before I transitioned to Android, where I've built
-					solutions for companies like trivago and freenow in Germany, impacting millions of users. Lately,
+					solutions for companies like trivago and freenow, impacting millions of users. Lately,
 					I've been expanding my horizons into the modern web with Vue, Nuxt.js, and Tailwind CSS – even using
 					them to build this very CV!
 				</p>
 				<p class="text-muted-foreground text-justify">
-					Beyond frontend, I'm deeply involved with Compose Multiplatform for mobile, Google Cloud Functions
-					(Node.js) for scalable APIs, and MongoDB for data management. A recent highlight has been exploring
-					the capabilities of Gemini – specifically, integrating the Gemini API with the Vercel AI SDK to
-					power the conversational AI in my property search app, Seekey. I enjoy the challenge of complex
-					problems and am committed to continuous learning in this ever-evolving tech landscape.
+					My passion for development goes beyond the frontend, encompassing Compose Multiplatform for
+					mobile experiences, Google Cloud Functions (Node.js) for efficient APIs, and MongoDB for data
+					solutions. A particular highlight lately has been exploring and integrating the Gemini API for
+					conversational AI and advanced text generation. I genuinely enjoy the challenge of complex problems
+					and am committed to continuous learning in this ever-evolving tech landscape.
 				</p>
 			</div>
 			<div class="space-y-4">

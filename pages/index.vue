@@ -25,6 +25,12 @@
 			<SkillsSection />
 		</section>
 		<section
+			id="projects"
+			class="pt-12 md:pt-16"
+		>
+			<ProjectsSection />
+		</section>
+		<section
 			id="skills"
 			class="pt-12 md:pt-16"
 		>

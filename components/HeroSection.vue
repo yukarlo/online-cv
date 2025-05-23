@@ -1,8 +1,8 @@
 <template>
 	<main>
 		<div class="flex flex-col-reverse md:flex-row w-full md:gap-12">
-			<div class="flex flex-1 flex-col justify-center space-y-4">
-				<div>
+			<div class="flex flex-1 flex-col space-y-4">
+				<div class="justify-items-center mt-4 md:mt-0 md:justify-items-start">
 					<h1 class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
 						Karlo Miguel Yu
 					</h1>
@@ -71,7 +71,7 @@
 			</div>
 			<div class="flex justify-center md:justify-end">
 				<div
-					class="relative overflow-hidden rounded-full border-4 border-border h-50 w-50 md:h-70 md:w-70"
+					class="relative overflow-hidden rounded-full border-4 border-border h-40 w-40 md:h-70 md:w-70"
 				>
 					<NuxtImg
 						src="https://media.licdn.com/dms/image/v2/C4D03AQHOVGysUwsW6Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1617795901794?e=1753315200&v=beta&t=YFbGk2ZQURGNqjLxBAI9g6Rp8urCWgCV8KzDm8IeMyc"

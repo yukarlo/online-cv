@@ -15,12 +15,12 @@
 				</p>
 				<div class="flex gap-2">
 					<UButton
-						to="/contact"
+						to="#contact"
 						label="Contact Me"
 						color="secondary"
 					/>
 					<UButton
-						to="/projects"
+						to="#projects"
 						variant="outline"
 						color="neutral"
 						label="View Projects"

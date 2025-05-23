@@ -9,8 +9,8 @@ const navigationItems = [
 	{ label: "About", icon: "material-symbols:person-outline", to: "#about" },
 	{ label: "Experience", icon: "mingcute:briefcase-line", to: "#experience" },
 	{ label: "Skills", icon: "heroicons:academic-cap", to: "#skills" },
-	{ label: "Education", icon: "i-heroicons-book-open", to: "#education" },
 	{ label: "Projects", icon: "i-heroicons-code-bracket-square", to: "#projects" },
+	{ label: "Education", icon: "i-heroicons-book-open", to: "#education" },
 	{ label: "Contact", icon: "i-heroicons-envelope", to: "#contact" },
 	{ label: "Resume", icon: "qlementine-icons:resume-16", to: "" },
 ]
@@ -44,14 +44,14 @@ const navigationItems = [
 						>Skills
 						</ULink>
 						<ULink
-							to="#education"
-							class="transition-colors hover:text-foreground/80"
-						>Education
-						</ULink>
-						<ULink
 							to="#projects"
 							class="transition-colors hover:text-foreground/80"
 						>Projects
+						</ULink>
+						<ULink
+							to="#education"
+							class="transition-colors hover:text-foreground/80"
+						>Education
 						</ULink>
 						<ULink
 							to="#contact"

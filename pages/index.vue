@@ -22,7 +22,7 @@
 			id="skills"
 			class="pt-12 md:pt-16"
 		>
-			<SkillsSections />
+			<SkillsSection />
 		</section>
 	</main>
 </template>

@@ -17,50 +17,50 @@ const navigationItems = [
 </script>
 
 <template>
-	<main class="sticky top-0 z-10 w-full">
-		<header class="hidden md:block border-b bg-[var(--ui-bg)]/95 backdrop-blur supports-[backdrop-filter]:bg-[var(--ui-bg)]/60">
-			<div class="flex h-14 max-w-[1450px] mx-auto xs:px-[var(--px-fluid-sm)] sm:px-[var(--px-fluid-sm)] md:px-[var(--px-fluid-md)">
-				<div class="mr-4 flex flex-1">
+	<main class="top-0 z-10 sticky w-full">
+		<header class="hidden md:block bg-[var(--ui-bg)]/95 supports-[backdrop-filter]:bg-[var(--ui-bg)]/60 backdrop-blur border-b">
+			<div class="flex mx-auto xs:px-[var(--px-fluid-sm)] sm:px-[var(--px-fluid-sm)] md:px-[var(--px-fluid-md) max-w-[1450px] h-14">
+				<div class="flex flex-1 mr-4">
 					<ULink
 						to="#hero"
-						class="mr-6 flex items-center space-x-2"
+						class="flex items-center space-x-2 mr-6"
 					>
 						<span class="font-bold">Karlo</span>
 					</ULink>
-					<nav class="flex items-center space-x-6 text-sm font-medium">
+					<nav class="flex items-center space-x-6 font-medium text-sm">
 						<ULink
 							to="#about"
-							class="transition-colors hover:text-foreground/80"
+							class="hover:text-foreground/80 transition-colors"
 						>About
 						</ULink>
 						<ULink
 							to="#experience"
-							class="transition-colors hover:text-foreground/80"
+							class="hover:text-foreground/80 transition-colors"
 						>Experience
 						</ULink>
 						<ULink
 							to="#skills"
-							class="transition-colors hover:text-foreground/80"
+							class="hover:text-foreground/80 transition-colors"
 						>Skills
 						</ULink>
 						<ULink
 							to="#projects"
-							class="transition-colors hover:text-foreground/80"
+							class="hover:text-foreground/80 transition-colors"
 						>Projects
 						</ULink>
 						<ULink
 							to="#education"
-							class="transition-colors hover:text-foreground/80"
+							class="hover:text-foreground/80 transition-colors"
 						>Education
 						</ULink>
 						<ULink
 							to="#contact"
-							class="transition-colors hover:text-foreground/80"
+							class="hover:text-foreground/80 transition-colors"
 						>Contact
 						</ULink>
 					</nav>
 				</div>
-				<div class="flex items-center justify-between space-x-2">
+				<div class="flex justify-between items-center space-x-2">
 					<UButton
 						label="Resu1"
 						color="neutral"
@@ -75,7 +75,7 @@ const navigationItems = [
 				</div>
 			</div>
 		</header>
-		<header class="block md:hidden w-full">
+		<header class="md:hidden block w-full">
 			<UCollapsible
 				v-model:open="open"
 				class="flex flex-col w-full"
@@ -94,14 +94,14 @@ const navigationItems = [
 				/>
 
 				<template #content>
-					<div class=" bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-t ">
+					<div class="bg-white/95 supports-[backdrop-filter]:bg-white/60 backdrop-blur border-t">
 						<nav class="flex flex-col">
 							<ULink
 								v-for="item in navigationItems"
 								:key="item.to"
 								size="lg"
 								:href="item.to"
-								class="flex items-center gap-2 p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+								class="flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-800 p-2 rounded-md"
 							>
 								<UIcon
 									:name="item.icon"

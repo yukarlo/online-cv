@@ -1,9 +1,9 @@
 <template>
 	<main>
-		<h2 class="mb-8 tracking-tighter text-2xl font-bold md:text-3xl">
+		<h2 class="mb-8 font-bold text-2xl md:text-3xl tracking-tighter">
 			About Me
 		</h2>
-		<div class="grid gap-6 md:grid-cols-3 md:gap-12">
+		<div class="gap-6 md:gap-12 grid md:grid-cols-3">
 			<div class="col-span-2">
 				<p class="mb-4 text-muted-foreground text-justify">
 					As a Senior Software Developer, I'm driven by the creation of intuitive, high-performance Android
@@ -26,7 +26,7 @@
 			</div>
 			<div class="space-y-4">
 				<div>
-					<h3 class="text-lg font-bold">
+					<h3 class="font-bold text-lg">
 						Location
 					</h3>
 					<span class="text-muted-foreground">
@@ -34,7 +34,7 @@
 					</span>
 				</div>
 				<div>
-					<h3 class="text-lg font-bold">
+					<h3 class="font-bold text-lg">
 						Email
 					</h3>
 					<ULink
@@ -45,7 +45,7 @@
 					</ULink>
 				</div>
 				<div>
-					<h3 class="text-lg font-bold">
+					<h3 class="font-bold text-lg">
 						Work Availability
 					</h3>
 					<span class="text-muted-foreground">

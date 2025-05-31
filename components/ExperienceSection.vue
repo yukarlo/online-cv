@@ -50,21 +50,21 @@ const experience = [
 
 <template>
 	<main>
-		<h2 class="mb-8 tracking-tighter text-2xl font-bold md:text-3xl">
+		<h2 class="mb-8 font-bold text-2xl md:text-3xl tracking-tighter">
 			Work Experience
 		</h2>
 		<div class="space-y-8">
 			<div
 				v-for="(job, index) in experience"
 				:key="index"
-				class="rounded-lg border p-6"
+				class="p-6 border rounded-lg"
 			>
-				<div class="mb-4 flex flex-col justify-between gap-2 sm:flex-row">
+				<div class="flex sm:flex-row flex-col justify-between gap-2 mb-4">
 					<div>
-						<h3 class="text-xl font-bold">
+						<h3 class="font-bold text-xl">
 							{{ job.title }}
 						</h3>
-						<p class="text-lg text-muted-foreground">
+						<p class="text-muted-foreground text-lg">
 							{{ job.company }}
 						</p>
 					</div>
@@ -72,7 +72,7 @@ const experience = [
 						{{ job.period }}
 					</div>
 				</div>
-				<ul class="ml-6 list-disc space-y-2 text-muted-foreground">
+				<ul class="space-y-2 ml-6 text-muted-foreground list-disc">
 					<li
 						v-for="(responsibility, i) in job.responsibilities"
 						:key="i"

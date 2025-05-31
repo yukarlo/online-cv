@@ -1,8 +1,8 @@
 <template>
 	<main>
-		<footer class="border-t py-6 md:py-0">
-			<div class="flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row max-w-[1450px] mx-auto xs:px-[var(--px-fluid-sm)] sm:px-[var(--px-fluid-sm)] md:px-[var(--px-fluid-md)">
-				<p class="text-center text-sm text-muted-foreground md:text-left">
+		<footer class="py-6 md:py-0 border-t">
+			<div class="flex md:flex-row flex-col justify-between items-center gap-4 mx-auto xs:px-[var(--px-fluid-sm)] sm:px-[var(--px-fluid-sm)] md:px-[var(--px-fluid-md) max-w-[1450px] md:h-24">
+				<p class="text-muted-foreground text-sm md:text-left text-center">
 					© {{ new Date().getFullYear() }} Karlo Miguel Yu. All rights reserved.
 				</p>
 				<div class="flex gap-4">
@@ -12,7 +12,7 @@
 						rel="noopener noreferrer"
 						variant="link"
 						color="neutral"
-						class="rounded-full "
+						class="rounded-full"
 					>
 						<UIcon
 							size="24"
@@ -26,7 +26,7 @@
 						rel="noopener noreferrer"
 						variant="link"
 						color="neutral"
-						class="rounded-full "
+						class="rounded-full"
 					>
 						<UIcon
 							size="24"
@@ -38,7 +38,7 @@
 						to="mailto:karlo.miguel.p.yu@gmail.com"
 						variant="link"
 						color="neutral"
-						class="rounded-full "
+						class="rounded-full"
 					>
 						<UIcon
 							size="24"

@@ -4,17 +4,17 @@
 
 <template>
 	<main>
-		<h2 class="mb-8 tracking-tighter text-2xl font-bold md:text-3xl">
+		<h2 class="mb-8 font-bold text-2xl md:text-3xl tracking-tighter">
 			Education
 		</h2>
-		<div class="w-full space-y-8">
-			<div class="rounded-lg border p-6">
-				<div class="mb-4 flex flex-col justify-between gap-2 sm:flex-row">
-					<h3 class="text-xl font-bold">
+		<div class="space-y-8 w-full">
+			<div class="p-6 border rounded-lg">
+				<div class="flex sm:flex-row flex-col justify-between gap-2 mb-4">
+					<h3 class="font-bold text-xl">
 						Bachelor of Science in Computer Science
 					</h3>
 				</div>
-				<p className="text-lg text-muted-foreground">
+				<p className="text-muted-foreground text-lg">
 					ACLC College Tacloban City
 				</p>
 			</div>

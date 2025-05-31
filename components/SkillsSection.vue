@@ -20,7 +20,7 @@ const skills = {
 
 <template>
 	<main>
-		<h2 class="mb-8 tracking-tighter text-2xl font-bold md:text-3xl">
+		<h2 class="mb-8 font-bold text-2xl md:text-3xl tracking-tighter">
 			Skills
 		</h2>
 		<div class="w-full">
@@ -33,7 +33,7 @@ const skills = {
 				:ui="{ trigger: 'grow' }"
 			>
 				<template #technical>
-					<h3 class="text-lg font-medium">
+					<h3 class="font-medium text-lg">
 						Mobile
 					</h3>
 					<div class="flex flex-wrap gap-2 mt-2 mb-4">
@@ -41,12 +41,12 @@ const skills = {
 							v-for="skill in skills.mobile"
 							:key="skill"
 							size="xl"
-							class="rounded-full px-4"
+							class="px-4 rounded-full"
 							color="neutral"
 							:label="skill"
 						/>
 					</div>
-					<h3 class="text-lg font-medium">
+					<h3 class="font-medium text-lg">
 						Frontend
 					</h3>
 					<div class="flex flex-wrap gap-2 mt-2 mb-4">
@@ -54,12 +54,12 @@ const skills = {
 							v-for="skill in skills.frontend"
 							:key="skill"
 							size="xl"
-							class="rounded-full px-4"
+							class="px-4 rounded-full"
 							color="neutral"
 							:label="skill"
 						/>
 					</div>
-					<h3 class="text-lg font-medium">
+					<h3 class="font-medium text-lg">
 						Backend
 					</h3>
 					<div class="flex flex-wrap gap-2 mt-2 mb-4">
@@ -68,11 +68,11 @@ const skills = {
 							:key="skill"
 							size="xl"
 							color="neutral"
-							class="rounded-full px-4"
+							class="px-4 rounded-full"
 							:label="skill"
 						/>
 					</div>
-					<h3 class="text-lg font-medium">
+					<h3 class="font-medium text-lg">
 						Generative AI
 					</h3>
 					<div class="flex flex-wrap gap-2 mt-2 mb-4">
@@ -80,12 +80,12 @@ const skills = {
 							v-for="skill in skills.ai"
 							:key="skill"
 							size="xl"
-							class="rounded-full px-4"
+							class="px-4 rounded-full"
 							color="neutral"
 							:label="skill"
 						/>
 					</div>
-					<h3 class="text-lg font-medium">
+					<h3 class="font-medium text-lg">
 						Other
 					</h3>
 					<div class="flex flex-wrap gap-2 mt-2 mb-4">
@@ -93,7 +93,7 @@ const skills = {
 							v-for="skill in skills.other"
 							:key="skill"
 							size="xl"
-							class="rounded-full px-4"
+							class="px-4 rounded-full"
 							color="neutral"
 							:label="skill"
 						/>
@@ -105,7 +105,7 @@ const skills = {
 							v-for="skill in skills.soft"
 							:key="skill"
 							size="xl"
-							class="rounded-full px-4"
+							class="px-4 rounded-full"
 							color="neutral"
 							:label="skill"
 						/>
@@ -117,7 +117,7 @@ const skills = {
 							v-for="skill in skills.tools"
 							:key="skill"
 							size="xl"
-							class="rounded-full px-4"
+							class="px-4 rounded-full"
 							color="neutral"
 							:label="skill"
 						/>
